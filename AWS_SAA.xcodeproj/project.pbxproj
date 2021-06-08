@@ -13,6 +13,11 @@
 		A9AEAE332668FF0A0029C72B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9AEAE312668FF0A0029C72B /* Main.storyboard */; };
 		A9AEAE352668FF0E0029C72B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9AEAE342668FF0E0029C72B /* Assets.xcassets */; };
 		A9AEAE382668FF0E0029C72B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9AEAE362668FF0E0029C72B /* LaunchScreen.storyboard */; };
+		A9AEAE40266900250029C72B /* AwsQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AEAE3F266900250029C72B /* AwsQuizViewController.swift */; };
+		A9AEAE42266900CC0029C72B /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AEAE41266900CC0029C72B /* ScoreViewController.swift */; };
+		A9AEAE442669029A0029C72B /* quiz.csv in Resources */ = {isa = PBXBuildFile; fileRef = A9AEAE432669029A0029C72B /* quiz.csv */; };
+		A9C497A6266CC15F00524CDD /* correct.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A9C497A5266CC15E00524CDD /* correct.jpeg */; };
+		A9C497A8266CC16E00524CDD /* incorrect.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A9C497A7266CC16E00524CDD /* incorrect.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		A9AEAE342668FF0E0029C72B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9AEAE372668FF0E0029C72B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9AEAE392668FF0E0029C72B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9AEAE3F266900250029C72B /* AwsQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwsQuizViewController.swift; sourceTree = "<group>"; };
+		A9AEAE41266900CC0029C72B /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		A9AEAE432669029A0029C72B /* quiz.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz.csv; sourceTree = "<group>"; };
+		A9C497A5266CC15E00524CDD /* correct.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = correct.jpeg; sourceTree = "<group>"; };
+		A9C497A7266CC16E00524CDD /* incorrect.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = incorrect.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +70,12 @@
 				A9AEAE2D2668FF0A0029C72B /* SceneDelegate.swift */,
 				A9AEAE2F2668FF0A0029C72B /* ViewController.swift */,
 				A9AEAE312668FF0A0029C72B /* Main.storyboard */,
+				A9AEAE41266900CC0029C72B /* ScoreViewController.swift */,
+				A9AEAE3F266900250029C72B /* AwsQuizViewController.swift */,
+				A9AEAE432669029A0029C72B /* quiz.csv */,
 				A9AEAE342668FF0E0029C72B /* Assets.xcassets */,
+				A9C497A5266CC15E00524CDD /* correct.jpeg */,
+				A9C497A7266CC16E00524CDD /* incorrect.jpeg */,
 				A9AEAE362668FF0E0029C72B /* LaunchScreen.storyboard */,
 				A9AEAE392668FF0E0029C72B /* Info.plist */,
 			);
@@ -125,8 +140,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9AEAE382668FF0E0029C72B /* LaunchScreen.storyboard in Resources */,
+				A9C497A8266CC16E00524CDD /* incorrect.jpeg in Resources */,
 				A9AEAE352668FF0E0029C72B /* Assets.xcassets in Resources */,
 				A9AEAE332668FF0A0029C72B /* Main.storyboard in Resources */,
+				A9AEAE442669029A0029C72B /* quiz.csv in Resources */,
+				A9C497A6266CC15F00524CDD /* correct.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +156,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9AEAE302668FF0A0029C72B /* ViewController.swift in Sources */,
+				A9AEAE40266900250029C72B /* AwsQuizViewController.swift in Sources */,
+				A9AEAE42266900CC0029C72B /* ScoreViewController.swift in Sources */,
 				A9AEAE2C2668FF0A0029C72B /* AppDelegate.swift in Sources */,
 				A9AEAE2E2668FF0A0029C72B /* SceneDelegate.swift in Sources */,
 			);
