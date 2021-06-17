@@ -17,8 +17,8 @@ class AwsQuizViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Cover bacKGroundColor
-        view.backgroundColor = UIColor(red: 0.99, green: 0.44, blue: 0.34, alpha: 1.0)
+        // background color
+        view.backgroundColor = UIColor(red: 240/255, green: 238/255, blue: 237/255, alpha: 0.99)
         
         if answerButton1 != nil {
             self.answerButton1.layer.cornerRadius = 12
@@ -31,14 +31,34 @@ class AwsQuizViewController: UIViewController {
         if answerButton2 != nil {
             self.answerButton2.layer.cornerRadius = 12
             self.answerButton2.backgroundColor = UIColor.systemBlue
+            self.answerButton2.layer.shadowOpacity = 0.4
+            self.answerButton2.layer.shadowRadius = 12
+            self.answerButton2.layer.shadowColor = UIColor.black.cgColor
+            self.answerButton2.layer.shadowOffset = CGSize(width: 5, height: 5)
         }
         if answerButton3 != nil {
             self.answerButton3.layer.cornerRadius = 12
             self.answerButton3.backgroundColor = UIColor.systemBlue
+            self.answerButton3.layer.shadowOpacity = 0.4
+            self.answerButton3.layer.shadowRadius = 12
+            self.answerButton3.layer.shadowColor = UIColor.black.cgColor
+            self.answerButton3.layer.shadowOffset = CGSize(width: 5, height: 5)
         }
         if answerButton4 != nil {
             self.answerButton4.layer.cornerRadius = 12
             self.answerButton4.backgroundColor = UIColor.systemBlue
+            self.answerButton4.layer.shadowOpacity = 0.4
+            self.answerButton4.layer.shadowRadius = 12
+            self.answerButton4.layer.shadowColor = UIColor.black.cgColor
+            self.answerButton4.layer.shadowOffset = CGSize(width: 5, height: 5)
+        }
+        if quizTextView != nil {
+            self.quizTextView.layer.cornerRadius = 11.5
+            self.quizTextView.backgroundColor = UIColor.white
+            self.quizTextView.layer.shadowOpacity = 0.4
+            self.quizTextView.layer.shadowRadius = 11.5
+            self.quizTextView.layer.shadowColor = UIColor.black.cgColor
+            self.quizTextView.layer.shadowOffset = CGSize(width: 6, height: 6)
         }
         
         csvArray = loadCSV(fileName: "quiz")
